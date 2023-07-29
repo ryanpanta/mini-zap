@@ -1,4 +1,4 @@
-var socket = io("192.168.0.110:5000");
+var socket = io("https://minizapdopanta.onrender.com:5000");
 socket.on("connect", function(){
     console.log("Usuário conectou");
 });
