@@ -1,4 +1,4 @@
-var socket = io("https://minizapdopanta.onrender.com");
+var socket = io("https://mini-zap-production.up.railway.app/");
 socket.on("connect", function(){
     console.log("Usuário conectou");
 });
