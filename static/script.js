@@ -1,4 +1,4 @@
-var socket = io("https://minizapdopanta.onrender.com:5000");
+var socket = io("https://minizapdopanta.onrender.com");
 socket.on("connect", function(){
     console.log("Usuário conectou");
 });
